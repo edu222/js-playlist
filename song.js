@@ -14,7 +14,7 @@ Song.prototype.stop = function() {
 };
 
 Song.prototype.toHTML = function() {
-  let htmlString = '<li ';
+  var htmlString = '<li ';
   if (this.isPLaying){
     htmlString += 'class="current"';
   }  

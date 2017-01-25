@@ -1,4 +1,4 @@
-let playlist = new Playlist();
+var playlist = new Playlist();
 
 var hereComesTheSun = new Song("Here Comes the Sun", "The Beatles", "2:54");
 var walkingOnSunshine = new Song("Walking on Sunshine", "Katrina & The Waves", "2:54");
@@ -6,7 +6,7 @@ var walkingOnSunshine = new Song("Walking on Sunshine", "Katrina & The Waves", "
 playlist.add(hereComesTheSun);
 playlist.add(walkingOnSunshine);
 
-let playListElement = document.getElementById("playlist");
+var playListElement = document.getElementById("playlist");
 
 playlist.renderInElement(playListElement);
 
