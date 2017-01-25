@@ -5,5 +5,5 @@ Course link: https://teamtreehouse.com/library/objectoriented-javascript
 
 # Live version
 ---
-You can check out the app running here: 
+You can check out the app running here: https://edu222.github.io/js-playlist/
 
